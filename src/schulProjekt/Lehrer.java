@@ -102,6 +102,7 @@ public class Lehrer {
             System.out.printf("%2s      %-8s    %-11s  %4s      %s \n", eachKey, eachValuarr[0],  eachValuarr[1], eachValuarr[2],  eachValuarr[3]);
         } Thread.sleep(3000);
     }
+
     public static void lehrerEinfügen() {
 
         System.out.println("Nummer");
