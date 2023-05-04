@@ -84,7 +84,7 @@ public class Lehrer {
 
             if(lehrerName.equalsIgnoreCase(eachValuarr[0]))
             System.out.printf("%2s      %-8s    %-11s  %4s      %s \n", eachKey, eachValuarr[0],  eachValuarr[1], eachValuarr[2],  eachValuarr[3]);
-        } Thread.sleep(3000);
+        } Thread.sleep(4000);
     }
     public static void notierendieAngabezurLehrer() throws InterruptedException {
         Set<Map.Entry<String, String>> lehrerEntrySet = lehrerMap.entrySet();
@@ -100,7 +100,7 @@ public class Lehrer {
             String eachValuarr [] = eachValue.split(", ");
 
             System.out.printf("%2s      %-8s    %-11s  %4s      %s \n", eachKey, eachValuarr[0],  eachValuarr[1], eachValuarr[2],  eachValuarr[3]);
-        } Thread.sleep(3000);
+        } Thread.sleep(4000);
     }
 
     public static void lehrerEinfügen() {

@@ -68,7 +68,7 @@ public class Schüler {
             String eachValuarr [] = eachValue.split(", ");
 
             System.out.printf("%2s      %-8s    %-11s  %4s      %s \n", eachKey, eachValuarr[0],  eachValuarr[1], eachValuarr[2],  eachValuarr[3]);
-        } Thread.sleep(3000);
+        } Thread.sleep(4000);
         }
         public static void schülerFinden () throws InterruptedException {
             System.out.println("Welche Schüler Suchen Sie");
@@ -89,7 +89,7 @@ public class Schüler {
                 if (schülerName.equalsIgnoreCase(eachValuarr[0])) {
                     System.out.printf("%2s      %-8s    %-11s  %4s      %s \n", eachKey, eachValuarr[0], eachValuarr[1], eachValuarr[2], eachValuarr[3]);
                 }
-            } Thread.sleep(3000);
+            } Thread.sleep(4000);
         }
         public static void schülerEinfügen () {
             System.out.println("Nummer");
