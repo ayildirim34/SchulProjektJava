@@ -41,7 +41,7 @@ public class Lage {
         System.out.println("\t\t\t---Stern---\n" +
                 "\t Adress : " + Schule.adress+
                 "\n\t Telefon Nummer : " + Schule.telNum);
-        Thread.sleep(5000);
+        Thread.sleep(3000);
     }
 
 
